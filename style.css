@@ -1,0 +1,92 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(205deg, #FFB6C1, #B0E0E6);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  width: 40%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+}
+
+#task-container {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  position: relative;
+  box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#task-container input {
+  position: relative;
+  width: 70%;
+  height: 45px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  padding: 12px;
+  color: #000
+}
+
+#task-container input:focus{
+  background-color:#ffffff;
+  outline : none;
+}
+
+#task-container button{
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  font-family: 'Noto Sans', sans-serif;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500px;
+  padding: 12px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: rgb(4, 100, 100);
+  outline: none;
+}
+
+#list-container {
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: relative;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.task_container span {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid #000;
+}
+
+.task_container button {
+  background-color: rgb(4, 100, 100);
+  color: #ffffff;
+  height: 50%;
+  width: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
